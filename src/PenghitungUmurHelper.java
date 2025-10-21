@@ -100,8 +100,7 @@ public class PenghitungUmurHelper {
             String year = event.getString("year"); 
             String description = event.getString("description");             
             String translatedDescription = translateToIndonesian(description); 
-            String peristiwa = year + ": " + translatedDescription; 
-            
+            String peristiwa = year + ": " + translatedDescription;             
             
     javax.swing.SwingUtilities.invokeLater(() -> 
     txtAreaPeristiwa.append(peristiwa + "\n")); 
